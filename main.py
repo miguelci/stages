@@ -63,7 +63,7 @@ def main():
     total_stages, stage_mapping = calculate_stages(shows)
 
     print(f"Total stages needed: {total_stages}")
-    print("Performance Schedule:")
+    print("Show Schedule:")
     for show_name, stage in stage_mapping.items():
         print(f"{show_name} -> Stage {stage}")
 
